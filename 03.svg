@@ -1,0 +1,15 @@
+<svg width="120" height="120" viewBox="0 0 24 24"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Outer Circle -->
+  <circle cx="12" cy="12" r="10"
+          stroke="#66D0C8"
+          stroke-width="2"
+          fill="none"/>
+
+  <!-- Facebook f -->
+  <path d="M13 8H15V6H13
+           C11.9 6 11 6.9 11 8V10H9V12H11V18H13V12H15L15.4 10H13V8Z"
+        fill="#66D0C8"/>
+
+</svg>

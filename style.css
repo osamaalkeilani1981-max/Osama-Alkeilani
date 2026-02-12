@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: poppins, serif;
+}
+
+body {
+    background-color: #222831;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+.n ul {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+}
+
+.n a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.n a:hover {
+    color: #06ac90;
+}
+
+hr{
+    opacity: 10%;
+}
+
+.img00 {
+    width: 150px;
+    height: 150px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+}
+
+.arrow {
+    position: absolute;
+    transform:translateX(-7em) translateY(1.5rem);
+    width: 150px;
+    height: 300px;
+}
+
+.heroSup {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}   
+
+.name {
+    color: #eeeeee;
+    font-size: 3rem;
+}
+
+.heroImg {
+    width: 500px;
+    height: 500px;
+}
+
+.title {
+    color: #00adb5;
+    font-size: 4rem;
+}
+
+.heroButtons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.hireMe {
+    text-decoration: none;
+    color: #eeeeee;
+    background-color: #00adb5;
+    padding: 0.5rem 1.5rem;
+    border-radius: 24px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5rem auto;
+    max-width: 1200px;
+    gap: 10rem;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+} 
+
+.textTitle {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+    font-size: 2rem;
+}
+
+.aboutTitle {
+    color: #00adb5;
+    font-size: 4rem;
+}
+
+.aboutMePar {
+    font-size: 1.25rem;
+    text-align: justify;
+    color: rgba(238, 238, 238, 0.75);
+}
+
+.aboutMeImg {
+    width: 600px;
+    height: 700px;
+}
+
+.light {
+    width: 70px;
+    height: 70px;
+}
+
+.myWorks {
+    background-image: url(08.svg);
+    padding: 10rem 10rem;
+    margin: 5rem 0rem;
+}
+
+.worksContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: left;
+    margin: 5rem auto;
+    max-width: 1200px;
+}
+
+.projectTitle {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    gap: 5px;
+    font-size: 2rem;
+}
+
+.myWorks ul {
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.myWorks li {
+    padding: 1rem 4rem;
+    background-color: rgba(57, 62, 70, 0.5);
+    border-radius: 16px;
+    backdrop-filter: blur(4px);
+}
+
+.myWorks li img {
+    width: 220px;
+    height: 220px;
+    object-fit: contain;
+    transition: transform 0.2s;
+}
+
+.myWorks li:hover img {
+    transform: scale(1.6);
+}
+
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+.contactTitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 2rem;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5rem;
+    gap: 20rem;
+}
+
+.contact a, .contact h3{
+    text-decoration: none;
+    color: #eeeeee;
+}
+
+.emailAndPhone img {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+.socialMedia img {
+    width: 24px;
+    height: 24px;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    color: #eeeeee;
+}
+
+footer :hover {
+    color: #00adb5;
+    font-size: 30px;
+}
+
+@media (max-width: 1023px) {
+    header {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .heroImg {
+        width: 400px;
+    }
+
+    .name .title {
+        font-size: 2rem;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .aboutMe {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .textContainer {
+        align-items: center;
+        margin: 0rem 5rem;
+        gap: 1rem;
+    }
+
+    .aboutTitle {
+        font-size: 2rem;
+    }
+
+    .light {
+        width: 60px;
+    }
+
+    .aboutMeImg {
+        width: 400px;
+    }
+
+    .myWorks {
+        padding: 0rem;
+    }
+
+    .worksContainer {
+        padding: 5rem 0rem ;
+        gap: 3rem;
+    }
+
+    .projectTitle {
+        margin-left: 1rem;
+    }
+
+    .myWorks ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .contactContainer {
+        margin: 10rem 5rem;
+        gap: 2rem;
+    }
+    
+    .contact {
+        flex-direction: column;
+        gap: 1rem;
+        margin-right: 0rem;
+    }
+}

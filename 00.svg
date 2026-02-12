@@ -1,0 +1,10 @@
+<svg width="120" height="100" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Envelope body -->
+  <rect x="15" y="25" width="90" height="60" rx="8" 
+        fill="none" stroke="#66D0C8" stroke-width="6"/>
+
+  <!-- Flap lines -->
+  <path d="M15 25 L60 60 L105 25" 
+        fill="none" stroke="#66D0C8" stroke-width="6" 
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
